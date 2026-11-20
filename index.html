@@ -112,13 +112,7 @@
                 
                 <!-- Left: Brand Logo Placeholder -->
                 <a href="#" onclick="navigateTo('home'); return false;" class="flex items-center gap-3 group">
-                    <div class="px-3.5 py-2 rounded-lg border-2 border-dashed border-white/60 bg-white/10 text-white font-extrabold text-xs tracking-widest uppercase group-hover:border-amber-300 group-hover:text-amber-300 transition-colors">
-                        LOGO
-                    </div>
-                    <div class="leading-tight">
-                        <span class="block font-extrabold text-lg tracking-tight text-white">Jaga</span>
-                        <span class="block font-bold text-sm tracking-wide text-slate-200 -mt-1">Bersama</span>
-                    </div>
+                    <img src="assets/jaga-bersama.png" alt="Jaga Bersama" class="h-12 w-auto max-w-[190px] object-contain brightness-0 invert transition-transform group-hover:scale-[1.03]">
                 </a>
 
                 <!-- Desktop Navigation Menu (Uniform Styling) -->
@@ -181,17 +175,17 @@
                                 Gerakan Sosial & Ruang Publik
                             </span>
                             <h2 class="text-3xl font-bold text-white leading-snug">
-                                Mengubah Coretan Liar Menjadi Karya Seni Bermakna & Ruang Aman Bersama.
+                                Untukmu, ruang publik yang aman & kreatif
                             </h2>
                         </div>
 
                         <!-- Right Hero Text Block (Sesuai Layout Mockup) -->
                         <div class="lg:col-span-6 bg-white/95 backdrop-blur-md p-6 sm:p-10 rounded-3xl shadow-2xl border border-slate-100">
                             <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#32316b] leading-tight mb-4">
-                                Untuk setiap anak, ruang publik yang aman & kreatif
+                                Untukmu, ruang publik yang aman & kreatif
                             </h1>
                             <p class="text-slate-600 text-sm sm:text-base leading-relaxed mb-6">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porttitor elit eget elit congue, quis lacinia elit dignissim.
+                                Vandalisme masih terjadi di banyak daerah, dari coretan di tembok sampai pelemparan batu ke kereta. Kami mengajak warga untuk menjaga fasilitas umum sambil menyediakan tempat berkarya yang legal.
                             </p>
                             <div class="flex flex-wrap gap-3">
                                 <button onclick="navigateTo('explore')" class="px-6 py-3 rounded-xl bg-[#32316b] text-white font-semibold text-sm hover:bg-[#232250] transition-all shadow-md flex items-center gap-2">
@@ -229,10 +223,7 @@
                                 Welcome to Jaga Bersama!
                             </h2>
                             <p class="text-slate-600 text-sm sm:text-base leading-relaxed text-justify">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porttitor elit eget elit congue, quis lacinia elit dignissim.
-                            </p>
-                            <p class="text-slate-600 text-sm sm:text-base leading-relaxed text-justify">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dignissim euismod elit, a mattis augue laoreet quis.
+                                Jaga Bersama adalah inisiatif untuk menjaga ruang publik sekaligus membuka ruang kreativitas. Kami mengembangkan BersamArt sebagai tempat berkarya dengan izin, JAGA 360 sebagai saluran pelaporan kerusakan, serta kegiatan relawan untuk merawat fasilitas bersama. Kami ingin kepedulian tidak berhenti pada larangan, tetapi diwujudkan melalui tindakan.
                             </p>
                         </div>
                     </div>
@@ -248,25 +239,25 @@
                     </div>
 
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                        <!-- Card 1: Social Work -->
+                        <!-- Card 1: Facility Clean Up -->
                         <a href="#" onclick="navigateTo('about'); return false;" class="group w-full cursor-pointer rounded-2xl overflow-hidden shadow-lg bg-[#32316b] flex flex-col text-left transition-transform duration-300 hover:-translate-y-2 focus:outline-none focus:ring-4 focus:ring-amber-400">
                             <div class="h-56 overflow-hidden">
                                 <img src="https://images.unsplash.com/photo-1593113598332-cd288d649433?auto=format&fit=crop&w=800&q=80" 
-                                     alt="Social Work Volunteer" 
+                                     alt="Relawan membersihkan fasilitas umum"
                                      class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                                      onerror="this.src='https://placehold.co/600x400/32316b/ffffff?text=Social+Work'">
                             </div>
                             <div class="p-5 text-white flex items-center justify-between">
                                 <div>
-                                    <h3 class="font-bold text-xl">Social Work</h3>
-                                    <p class="text-xs text-slate-300 mt-1">Lorem ipsum dolor sit amet.</p>
+                                    <h3 class="font-bold text-xl">Facility Clean Up</h3>
+                                    <p class="text-xs text-slate-300 mt-1">Gerakan menjaga fasilitas umum bersama relawan, lewat pemeriksaan berkala dan edukasi tanpa konfrontasi.</p>
                                 </div>
                                 <i class="fa-solid fa-arrow-right text-amber-400 group-hover:translate-x-1 transition-transform"></i>
                             </div>
                         </a>
 
                         <!-- Card 2: Dinding Baru (Links to BersamArt) -->
-                        <a href="#" onclick="navigateTo('bersamart'); return false;" class="group w-full cursor-pointer rounded-2xl overflow-hidden shadow-lg bg-[#32316b] flex flex-col text-left transition-transform duration-300 hover:-translate-y-2 focus:outline-none focus:ring-4 focus:ring-amber-400">
+                        <a href="#" onclick="goToBersamArtActivities(); return false;" class="group w-full cursor-pointer rounded-2xl overflow-hidden shadow-lg bg-[#32316b] flex flex-col text-left transition-transform duration-300 hover:-translate-y-2 focus:outline-none focus:ring-4 focus:ring-amber-400">
                             <div class="h-56 overflow-hidden">
                                 <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&w=800&q=80" 
                                      alt="Dinding Baru Mural" 
@@ -276,24 +267,24 @@
                             <div class="p-5 text-white flex items-center justify-between">
                                 <div>
                                     <h3 class="font-bold text-xl">Dinding Baru</h3>
-                                    <p class="text-xs text-slate-300 mt-1">Lorem ipsum dolor sit amet.</p>
+                                    <p class="text-xs text-slate-300 mt-1">Jelajahi dinding terbaru dari BersamArt!</p>
                                 </div>
                                 <i class="fa-solid fa-arrow-right text-amber-400 group-hover:translate-x-1 transition-transform"></i>
                             </div>
                         </a>
 
-                        <!-- Card 3: Ruang Komunitas (Links to Explore) -->
-                        <a href="#" onclick="navigateTo('explore'); return false;" class="group w-full cursor-pointer rounded-2xl overflow-hidden shadow-lg bg-[#32316b] flex flex-col text-left transition-transform duration-300 hover:-translate-y-2 focus:outline-none focus:ring-4 focus:ring-amber-400">
+                        <!-- Card 3: Community Activities (Links to BersamArt activities) -->
+                        <a href="#" onclick="navigateTo('bersamart'); return false;" class="group w-full cursor-pointer rounded-2xl overflow-hidden shadow-lg bg-[#32316b] flex flex-col text-left transition-transform duration-300 hover:-translate-y-2 focus:outline-none focus:ring-4 focus:ring-amber-400">
                             <div class="h-56 overflow-hidden">
                                 <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=800&q=80" 
-                                     alt="Ruang Komunitas" 
+                                     alt="Kegiatan komunitas kreatif BersamArt"
                                      class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                                      onerror="this.src='https://placehold.co/600x400/32316b/ffffff?text=Ruang+Komunitas'">
                             </div>
                             <div class="p-5 text-white flex items-center justify-between">
                                 <div>
-                                    <h3 class="font-bold text-xl">Ruang Komunitas</h3>
-                                    <p class="text-xs text-slate-300 mt-1">Lorem ipsum dolor sit amet.</p>
+                                    <h3 class="font-bold text-xl">Community Activities</h3>
+                                    <p class="text-xs text-slate-300 mt-1">Tempat pelajar, seniman lokal, dan UMKM kreatif bertemu lewat workshop, pameran, dan kolaborasi.</p>
                                 </div>
                                 <i class="fa-solid fa-arrow-right text-amber-400 group-hover:translate-x-1 transition-transform"></i>
                             </div>
@@ -334,10 +325,10 @@
                         <div class="md:col-span-7 space-y-3">
                             <h2 class="text-2xl sm:text-3xl font-extrabold text-[#32316b]">What are our Goals?</h2>
                             <p class="text-slate-600 text-sm sm:text-base leading-relaxed text-justify">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porttitor elit eget elit congue, quis lacinia elit dignissim.
+                                Tujuan kami sederhana, yaitu mengurangi vandalisme dengan cara yang tidak hanya menghukum. Kami ingin warga paham batas antara berekspresi dan merusak fasilitas bersama.
                             </p>
                             <p class="text-slate-500 text-sm leading-relaxed text-justify">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dignissim euismod elit, a mattis augue laoreet quis.
+                                Kami ingin masyarakat mendapatkan haknya atas lingkungan yang bersih, aman, dan nyaman, sambil mendorong kewajiban kita semua untuk menjaga fasilitas umum, menghormati hak orang lain, dan menaati aturan.
                             </p>
                         </div>
                     </div>
@@ -347,10 +338,10 @@
                         <div class="md:col-span-7 space-y-3 order-2 md:order-1">
                             <h2 class="text-2xl sm:text-3xl font-extrabold text-[#32316b]">Pendekatan & Misi Program</h2>
                             <p class="text-slate-600 text-sm sm:text-base leading-relaxed text-justify">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porttitor elit eget elit congue, quis lacinia elit dignissim.
+                                Sebenarnya aturan mengenai vandalisme sudah ada, tapi pelaksanaan, pengawasan, dan pencegahannya belum optimal, dan penanganannya masih banyak berfokus pada tindakan setelah kejadian. Karena itu, pendekatan kami fokus pada pencegahan.
                             </p>
                             <p class="text-slate-500 text-sm leading-relaxed text-justify">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dignissim euismod elit, a mattis augue laoreet quis.
+                                Misi kami ada tiga. Pertama, menyediakan ruang berekspresi legal lewat BersamArt. Kedua, membentuk komunitas kreatif yang ikut dalam kegiatan penguatan skill dan relawan perawatan fasilitas. Ketiga, membangun sistem pelaporan dan pemantauan lewat JAGA 360.
                             </p>
                         </div>
                         <div class="md:col-span-5 order-1 md:order-2">
@@ -368,28 +359,22 @@
             <div class="py-14 bg-[#EBEBEB] border-t border-slate-200">
                 <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                     <span class="text-xs font-bold uppercase tracking-widest text-amber-600">Kolaborasi Lintas Sektor</span>
-                    <h3 class="text-2xl sm:text-3xl font-extrabold text-[#32316b] mt-1 mb-3">Our Partnerships & Dukungan</h3>
+                    <h3 class="text-2xl sm:text-3xl font-extrabold text-[#32316b] mt-1 mb-3">Our Collaborations & Partnerships</h3>
                     <p class="text-slate-600 text-sm max-w-2xl mx-auto mb-10">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porttitor elit eget elit congue, quis lacinia elit dignissim.
+                        Program ini tidak bisa jalan sendiri. Kami mengajak berbagai pihak untuk ikut menjaga ruang publik dan memberdayakan kreativitas lokal.
                     </p>
 
-                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col items-center justify-center gap-2">
-                            <i class="fa-solid fa-landmark text-3xl text-[#32316b]"></i>
-                            <span class="font-bold text-xs text-slate-700 mt-1">Dinas Pertamanan & Tata Kota</span>
-                        </div>
-                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col items-center justify-center gap-2">
-                            <i class="fa-solid fa-palette text-3xl text-amber-500"></i>
-                            <span class="font-bold text-xs text-slate-700 mt-1">Kolektif Mural Jakarta</span>
-                        </div>
-                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col items-center justify-center gap-2">
-                            <i class="fa-solid fa-train-subway text-3xl text-[#32316b]"></i>
-                            <span class="font-bold text-xs text-slate-700 mt-1">Pengelola Transportasi Publik</span>
-                        </div>
-                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col items-center justify-center gap-2">
-                            <i class="fa-solid fa-people-group text-3xl text-amber-500"></i>
-                            <span class="font-bold text-xs text-slate-700 mt-1">Forum Pemuda Peduli Kota</span>
-                        </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-3xl mx-auto">
+                        <button type="button" onclick="openPartnerModal('Ganara Art Space', 'Jaga Bersama berkolaborasi dengan Ganara Art Space dalam menyediakan kegiatan berkarya bagi komunitas.')" class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col items-center justify-center gap-2 hover:-translate-y-1 hover:shadow-md transition-all focus:outline-none focus:ring-4 focus:ring-amber-400">
+                            <img src="assets/ganara-art-space.jpg" alt="Logo Ganara Art Space" class="w-24 h-24 rounded-xl object-contain">
+                            <span class="font-bold text-sm text-slate-700 mt-1">Ganara Art Space</span>
+                            <span class="text-xs text-amber-700 font-semibold">Lihat kolaborasi</span>
+                        </button>
+                        <button type="button" onclick="openPartnerModal('Lumpur Surga by Riri', 'UMKM lokal yang ikut berkolaborasi dengan komunitas Jaga Bersama dalam desain packaging.')" class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col items-center justify-center gap-2 hover:-translate-y-1 hover:shadow-md transition-all focus:outline-none focus:ring-4 focus:ring-amber-400">
+                            <img src="assets/lumpur-surga-by-riri.png" alt="Logo Lumpur Surga by Riri" class="w-40 h-36 rounded-xl object-contain">
+                            <span class="font-bold text-sm text-slate-700 mt-1">Lumpur Surga by Riri</span>
+                            <span class="text-xs text-amber-700 font-semibold">Lihat kolaborasi</span>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -416,7 +401,7 @@
                     </div>
                     <div>
                         <p class="inline-block bg-teal-600/90 text-white text-sm sm:text-base font-medium px-4 py-1.5 rounded-lg">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Sama-sama pakai cat dan tembok, tapi beda di izin dan dampaknya. Yang satu merugikan banyak orang, yang satu bisa jadi karya.
                         </p>
                     </div>
                     <div class="pt-2">
@@ -427,76 +412,50 @@
                 </div>
             </div>
 
-            <!-- Data & Charts Section ("JUDUL CHARTS/DATA") -->
+            <!-- Data & Charts Section -->
             <div class="py-16 bg-white">
                 <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
                     
                     <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center bg-[#EBEBEB]/60 p-6 sm:p-8 rounded-3xl border border-slate-200">
-                        <!-- Left Bar Chart Visualization (Matching Mockup's 4 Colorful Bars) -->
-                        <div class="lg:col-span-6 order-2 bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
-                            <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-4">Laporan Insiden Vandalisme per Kuartal (2025)</h3>
-                            
-                            <div class="relative h-56 flex items-end justify-around pt-6 pb-2 border-b border-slate-300 px-2">
-                                <!-- Y-Axis Grid Lines -->
-                                <div class="absolute inset-x-0 top-6 border-b border-dashed border-slate-200 text-[10px] text-slate-400">80</div>
-                                <div class="absolute inset-x-0 top-20 border-b border-dashed border-slate-200 text-[10px] text-slate-400">60</div>
-                                <div class="absolute inset-x-0 top-32 border-b border-dashed border-slate-200 text-[10px] text-slate-400">40</div>
-                                <div class="absolute inset-x-0 top-44 border-b border-dashed border-slate-200 text-[10px] text-slate-400">20</div>
-
-                                <!-- Bar 1 -->
-                                <div class="relative z-10 flex flex-col items-center w-14 group">
-                                    <span class="text-xs font-bold text-blue-600 mb-1">60</span>
-                                    <div class="w-11 bg-blue-500 rounded-t-lg transition-all duration-500 group-hover:opacity-85" style="height: 120px;"></div>
-                                </div>
-                                <!-- Bar 2 -->
-                                <div class="relative z-10 flex flex-col items-center w-14 group">
-                                    <span class="text-xs font-bold text-purple-600 mb-1">45</span>
-                                    <div class="w-11 bg-purple-400 rounded-t-lg transition-all duration-500 group-hover:opacity-85" style="height: 90px;"></div>
-                                </div>
-                                <!-- Bar 3 -->
-                                <div class="relative z-10 flex flex-col items-center w-14 group">
-                                    <span class="text-xs font-bold text-orange-600 mb-1">78</span>
-                                    <div class="w-11 bg-orange-300 rounded-t-lg transition-all duration-500 group-hover:opacity-85" style="height: 156px;"></div>
-                                </div>
-                                <!-- Bar 4 -->
-                                <div class="relative z-10 flex flex-col items-center w-14 group">
-                                    <span class="text-xs font-bold text-amber-600 mb-1">30</span>
-                                    <div class="w-11 bg-amber-300 rounded-t-lg transition-all duration-500 group-hover:opacity-85" style="height: 60px;"></div>
-                                </div>
-                            </div>
-                            <!-- X-Axis Labels -->
-                            <div class="flex justify-around text-xs font-semibold text-slate-600 mt-2 px-2">
-                                <span>Q1</span>
-                                <span>Q2</span>
-                                <span>Q3</span>
-                                <span>Q4</span>
-                            </div>
+                        <div class="lg:col-span-5 flex flex-col items-center">
+                            <h2 class="text-center text-sm font-bold uppercase tracking-wider text-[#32316b] mb-4">Alasan Melakukan Vandalisme Coret-Coret</h2>
+                            <div role="img" aria-label="Diagram lingkaran: iseng 50 persen, ingin meninggalkan kenangan 24,4 persen, ikut-ikutan 17,9 persen, lainnya 7,7 persen" class="w-40 h-40 sm:w-44 sm:h-44 rounded-full shadow-inner" style="background: conic-gradient(#32316b 0% 50%, #f59e0b 50% 74.4%, #0d9488 74.4% 92.3%, #e85b4f 92.3% 100%);"></div>
+                            <ul class="mt-5 grid grid-cols-2 gap-x-4 gap-y-2 text-xs text-slate-700">
+                                <li class="flex items-center gap-2"><span class="w-2.5 h-2.5 rounded-full bg-[#32316b]"></span>Iseng <strong>50%</strong></li>
+                                <li class="flex items-center gap-2"><span class="w-2.5 h-2.5 rounded-full bg-amber-500"></span>Ingin meninggalkan kenangan <strong>24,4%</strong></li>
+                                <li class="flex items-center gap-2"><span class="w-2.5 h-2.5 rounded-full bg-teal-600"></span>Ikut-ikutan <strong>17,9%</strong></li>
+                                <li class="flex items-center gap-2"><span class="w-2.5 h-2.5 rounded-full bg-[#e85b4f]"></span>Lainnya <strong>7,7%</strong></li>
+                            </ul>
+                            <p class="text-[10px] text-slate-500 text-center mt-4 max-w-xs">Sumber: Darwanto, Nurmarwaa, & Surachman (2023), studi kasus Benteng Pendem, Cilacap. 78 responden; bukan data nasional.</p>
                         </div>
-
-                        <!-- Right Big Numbers & Data Summary -->
-                        <div class="lg:col-span-6 order-1 space-y-6">
-                            <div>
-                                <span class="text-xs font-bold uppercase tracking-wider text-amber-600">Data & Statistik Lapangan</span>
-                                <h2 class="text-2xl sm:text-3xl font-extrabold text-[#32316b] mt-1">
-                                    DATA VANDALISME RUANG PUBLIK
-                                </h2>
-                            </div>
-
-                            <div class="grid grid-cols-2 gap-4">
-                                <div class="bg-[#e85b4f] p-5 rounded-2xl shadow-sm text-white">
-                                    <span class="block text-4xl sm:text-5xl font-extrabold">78%</span>
-                                    <p class="text-xs text-white/90 mt-2">Lorem ipsum dolor sit amet.</p>
-                                </div>
-                                <div class="bg-amber-400 p-5 rounded-2xl shadow-sm text-[#32316b]">
-                                    <span class="block text-4xl sm:text-5xl font-extrabold">64%</span>
-                                    <p class="text-xs text-[#32316b]/80 mt-2">Lorem ipsum dolor sit amet.</p>
-                                </div>
-                            </div>
-
+                        <div class="lg:col-span-7 space-y-4">
+                            <span class="text-xs font-bold uppercase tracking-wider text-amber-600">Data & Statistik Lapangan</span>
+                            <h2 class="text-2xl sm:text-3xl font-extrabold text-[#32316b]">Alasan Melakukan Vandalisme Coret-Coret</h2>
                             <p class="text-slate-600 text-sm leading-relaxed text-justify">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porttitor elit eget elit congue, quis lacinia elit dignissim. Proin dignissim euismod elit, a mattis augue laoreet quis.
+                                Dalam studi kasus Benteng Pendem, iseng menjadi alasan yang paling banyak dilaporkan untuk melakukan aksi coret-coret, disusul keinginan meninggalkan kenangan dan ikut-ikutan. Penelitian tersebut juga melaporkan bahwa 47,4% responden tidak takut terhadap ancaman pada papan peringatan. Temuan lokal ini menjadi bahan pertimbangan kami untuk mengembangkan pendekatan yang tidak berhenti pada larangan, tetapi juga mengajak masyarakat menjaga situs dan fasilitas bersama.
                             </p>
                         </div>
+                    </div>
+
+                    <div class="space-y-5">
+                        <div class="text-center">
+                            <span class="text-xs font-bold uppercase tracking-wider text-amber-600">Data Vandalisme Kereta</span>
+                            <h2 class="text-2xl sm:text-3xl font-extrabold text-[#32316b] mt-1">Peristiwa Pelemparan & Vandalisme Kereta (2024)</h2>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div class="bg-[#e85b4f] p-6 rounded-2xl shadow-sm text-white">
+                                <span class="block text-4xl sm:text-5xl font-extrabold">33</span>
+                                <p class="text-sm text-white/95 mt-2">Kasus vandalisme terhadap kereta di Jabodetabek dan Merak sepanjang 2024, termasuk 22 kasus pelemparan.</p>
+                            </div>
+                            <div class="bg-amber-400 p-6 rounded-2xl shadow-sm text-[#32316b]">
+                                <span class="block text-4xl sm:text-5xl font-extrabold">55</span>
+                                <p class="text-sm text-[#32316b]/90 mt-2">Kasus pelemparan terhadap kereta di wilayah KAI Divre I Sumatera Utara sepanjang 2024.</p>
+                                <p class="text-xs font-semibold mt-3">Sumber: Koran Jakarta</p>
+                            </div>
+                        </div>
+                        <p class="text-slate-600 text-sm leading-relaxed text-justify">
+                            Vandalisme terhadap kereta tidak hanya merusak fasilitas, tetapi juga membahayakan keselamatan penumpang dan petugas. Kasus yang tercatat di kedua wilayah tersebut menunjukkan bahwa kepedulian terhadap fasilitas umum perlu diwujudkan melalui pencegahan, pengawasan, dan pelaporan tindakan perusakan.
+                        </p>
                     </div>
 
                     <!-- Problem Explanation & Legal Framework (UU No. 1 Tahun 2023 tentang KUHP Pasal 521) -->
@@ -505,7 +464,7 @@
                             Eksplorasi Masalah & Tinjauan Dasar Hukum
                         </h3>
                         <p class="text-justify">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porttitor elit eget elit congue, quis lacinia elit dignissim.
+                            Vandalisme bukan cuma coret-coret. Bentuknya bisa berupa grafiti di ruang publik, perusakan halte dan rambu lalu lintas, sampai pelemparan batu ke kereta. Di Klaten, Jawa Tengah, dua penumpang KA Sancaka terluka setelah kereta dilempari batu pada 6 Juli 2025. Artinya, ini bukan cuma soal estetika, tapi juga keselamatan.
                         </p>
 
                         <!-- Highlighted Legal Citation Box (Sesuai Catatan Mockup) -->
@@ -519,14 +478,14 @@
                                         Dasar Hukum: UU No. 1 Tahun 2023 tentang KUHP Pasal 521
                                     </h4>
                                     <p class="text-sm text-slate-200 leading-relaxed text-justify">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porttitor elit eget elit congue, quis lacinia elit dignissim.
+                                        Pasal ini mengatur perusakan barang milik orang lain, menggantikan Pasal 406 KUHP lama, dan berlaku sejak 2 Januari 2026.
                                     </p>
                                 </div>
                             </div>
                         </div>
 
                         <p class="text-justify text-slate-600">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dignissim euismod elit, a mattis augue laoreet quis.
+                            Dasar hukumnya kuat, tapi banyak pelakunya remaja sehingga penanganannya cenderung lewat pembinaan, bukan pidana. Aturan lain juga punya keterbatasan. UU Perkeretaapian (UU No. 23 Tahun 2007) mengancam perusakan prasarana kereta dengan penjara maksimal 3 tahun, sedangkan pelanggaran seperti meletakkan barang di rel diancam penjara maksimal 3 bulan atau denda Rp15 juta. Ancamannya jelas, tapi kasus tetap terjadi dan ancaman 3 bulan mungkin kurang bikin jera. UU LLAJ (UU No. 22 Tahun 2009) melindungi rambu, marka, dan lampu lalu lintas, tetapi tidak mencakup coretan di tembok, jembatan, atau bangunan lain. Kasusnya tetap muncul sepanjang 2026, dan itu yang mendorong kami fokus ke pencegahan.
                         </p>
                     </div>
 
@@ -534,7 +493,7 @@
                     <div class="pt-6 border-t border-slate-200">
                         <div class="text-center mb-8">
                             <h3 class="text-2xl font-extrabold text-[#32316b] uppercase tracking-wide">READ MORE</h3>
-                            <p class="text-xs text-slate-500 mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p class="text-xs text-slate-500 mt-1">Baca analisis lengkap kami tentang vandalisme dan solusinya.</p>
                         </div>
 
                         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -542,13 +501,13 @@
                             <div onclick="openEssayModal(1)" class="cursor-pointer rounded-2xl overflow-hidden shadow-md border border-slate-200 flex flex-col bg-amber-400 hover:-translate-y-1.5 transition-all group">
                                 <div class="h-48 overflow-hidden bg-sky-100">
                                     <img src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?auto=format&fit=crop&w=700&q=80" 
-                                         alt="Essay Dummy 1" 
+                                         alt="Menjaga fasilitas bersama"
                                          class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                                          onerror="this.src='https://placehold.co/600x400/bae6fd/32316b?text=Essay+1'">
                                 </div>
                                 <div class="p-5 text-center flex-grow flex flex-col justify-center">
-                                    <h4 class="font-extrabold text-lg text-[#32316b] uppercase">ESSAY DUMMY 1</h4>
-                                    <p class="text-xs font-medium text-slate-800 mt-1">Lorem ipsum dolor sit amet.</p>
+                                    <h4 class="font-extrabold text-lg text-[#32316b] uppercase">Menjaga Fasilitas Bersama</h4>
+                                    <p class="text-xs font-medium text-slate-800 mt-1">Mengapa pencegahan perlu melibatkan warga.</p>
                                 </div>
                             </div>
 
@@ -561,8 +520,8 @@
                                          onerror="this.src='https://placehold.co/600x400/bae6fd/32316b?text=Essay+Sumatif'">
                                 </div>
                                 <div class="p-5 text-center flex-grow flex flex-col justify-center">
-                                    <h4 class="font-extrabold text-lg text-[#32316b] uppercase">ESSAY SUMATIF</h4>
-                                    <p class="text-xs font-medium text-slate-800 mt-1">Lorem ipsum dolor sit amet.</p>
+                                    <h4 class="font-extrabold text-lg text-[#32316b] uppercase">Vandalisme vs Street Art</h4>
+                                    <p class="text-xs font-medium text-slate-800 mt-1">Memahami batas ekspresi di ruang publik.</p>
                                 </div>
                             </div>
 
@@ -570,13 +529,13 @@
                             <div onclick="openEssayModal(2)" class="cursor-pointer rounded-2xl overflow-hidden shadow-md border border-slate-200 flex flex-col bg-amber-400 hover:-translate-y-1.5 transition-all group">
                                 <div class="h-48 overflow-hidden bg-sky-100">
                                     <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=700&q=80" 
-                                         alt="Essay Dummy 2" 
+                                         alt="Ruang publik aman"
                                          class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                                          onerror="this.src='https://placehold.co/600x400/bae6fd/32316b?text=Essay+2'">
                                 </div>
                                 <div class="p-5 text-center flex-grow flex flex-col justify-center">
-                                    <h4 class="font-extrabold text-lg text-[#32316b] uppercase">ESSAY DUMMY 2</h4>
-                                    <p class="text-xs font-medium text-slate-800 mt-1">Lorem ipsum dolor sit amet.</p>
+                                    <h4 class="font-extrabold text-lg text-[#32316b] uppercase">Ruang Publik Aman</h4>
+                                    <p class="text-xs font-medium text-slate-800 mt-1">Peran pelaporan dan perawatan bersama.</p>
                                 </div>
                             </div>
                         </div>
@@ -592,10 +551,11 @@
                             <i id="ref-chevron" class="fa-solid fa-chevron-down transition-transform"></i>
                         </button>
                         <div id="references-list" class="hidden mt-4 pt-4 border-t border-slate-300 text-xs sm:text-sm text-slate-700 space-y-2">
-                            <p>1. Republik Indonesia. (2023). <em>Undang-Undang Nomor 1 Tahun 2023 tentang Kitab Undang-Undang Hukum Pidana (KUHP), Pasal 521</em>. Lembaran Negara RI Tahun 2023.</p>
-                            <p>2. Kementerian Pekerjaan Umum dan Perumahan Rakyat. (2022). <em>Pedoman Penataan Ruang Publik dan Pencegahan Vandalisme Perkotaan</em>.</p>
-                            <p>3. Pratama, A. & Sari, D. (2024). <em>Transformasi Ruang Terbuka Hijau Melalui Seni Mural Komunitas di Jakarta Selatan</em>. Jurnal Tata Kota & Desain.</p>
-                            <p>4. Lorem ipsum dolor sit amet, consectetur adipiscing elit. (2025). <em>Studi Kasus Partisipasi Warga dalam Pelaporan Fasilitas Umum</em>.</p>
+                            <p>1. Darwanto, A., Nurmarwaa, S., & Surachman, V. A. (2023). “Mengendalikan Aksi Vandalisme Terhadap Situs Benteng Pendem Dengan Menggunakan Kuburan Palsu.” <em>Prabayaksa: Journal of History Education, 3</em>(1), 10–15. <a class="underline" href="https://ppjp.ulm.ac.id/journals/index.php/pby/index" target="_blank" rel="noopener noreferrer">Jurnal Prabayaksa</a>.</p>
+                            <p>2. Leandha, M., & Warta Silaban, M. (2025, June 22). “14 Kasus Pelemparan Kereta, KAI Sumut Ingatkan Pelaku Dapat Dipenjara Seumur Hidup.” <em>Tempo</em>. <a class="underline" href="https://www.tempo.co/ekonomi/14-kasus-pelemparan-kereta-kai-sumut-ingatkan-pelaku-dapat-dipenjara-seumur-hidup-1765605" target="_blank" rel="noopener noreferrer">Baca artikel</a>.</p>
+                            <p>3. Peraturan BPK. (2026). <em>Database Peraturan | JDIH BPK</em>. <a class="underline" href="https://peraturan.bpk.go.id/" target="_blank" rel="noopener noreferrer">peraturan.bpk.go.id</a>.</p>
+                            <p>4. Ramadhanty, N., & Pratama, F. A. (2025, January 17). “KAI Kecam Insiden Pelemparan Batu ke KRL Jalur Manggarai-Bogor.” <em>Tirto.id</em>. <a class="underline" href="https://tirto.id/kai-kecam-insiden-pelemparan-batu-ke-krl-jalur-manggarai-bogor-g7vC" target="_blank" rel="noopener noreferrer">Baca artikel</a>.</p>
+                            <p>5. Sandi, M. R. (2025, January 17). “Pelemparan Kereta di Jabodetabek Terjadi 22 Kali Sepanjang 2024.” <em>IDX Channel</em>. <a class="underline" href="https://www.idxchannel.com/news/pelemparan-kereta-di-jabodetabek-terjadi-22-kali-sepanjang-2024" target="_blank" rel="noopener noreferrer">Baca artikel</a>.</p>
                         </div>
                     </div>
 
@@ -633,10 +593,7 @@
                             <span class="text-xs font-bold uppercase tracking-widest text-amber-600">Wadah Ekspresi Legal</span>
                             <h2 class="text-3xl font-extrabold text-[#32316b]">BersamArt</h2>
                             <p class="text-slate-600 text-sm sm:text-base leading-relaxed text-justify">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porttitor elit eget elit congue, quis lacinia elit dignissim.
-                            </p>
-                            <p class="text-slate-500 text-sm leading-relaxed text-justify">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porttitor elit eget elit congue, quis lacinia elit dignissim. Proin dignissim euismod elit, a mattis augue laoreet quis. Nullam in nisl quis nibh ultrices efficitur nec at dolor.
+                                BersamArt menyediakan dinding resmi untuk warga berkarya lewat mural dan grafiti, tanpa merusak fasilitas umum. Semua dinding dipakai dengan izin tertulis dari pemilik atau pengelola.
                             </p>
                         </div>
                     </div>
@@ -644,7 +601,7 @@
             </div>
 
             <!-- LOCATIONS Section with Search Filter -->
-            <div class="py-14 bg-[#EBEBEB]/60 border-t border-slate-200">
+            <div id="bersamart-activities" class="py-14 bg-[#EBEBEB]/60 border-t border-slate-200">
                 <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div class="text-center max-w-xl mx-auto mb-10 space-y-4">
                         <h2 class="text-3xl font-extrabold text-[#32316b] uppercase tracking-tight">LOCATIONS</h2>
@@ -657,7 +614,7 @@
                                    oninput="filterLocations(); document.getElementById('location-search-clear').classList.toggle('hidden', !this.value)"
                                    onkeydown="if (event.key === 'Escape') { this.value = ''; filterLocations(); document.getElementById('location-search-clear').classList.add('hidden'); }"
                                    aria-label="Cari lokasi BersamArt berdasarkan nama atau alamat"
-                                   placeholder="I'm looking for BersamArt @ ...... (contoh: Blok M, Bintaro, Bandung)" 
+                                   placeholder="Cari BersamArt di dekatmu! (contoh: Jakarta, Bandung, Semarang)"
                                    class="w-full pl-11 pr-12 py-3 rounded-full bg-white border border-slate-300 text-sm text-slate-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#32316b]">
                             <button type="button" id="location-search-clear" onclick="clearLocationSearch()" class="hidden absolute right-3 top-1/2 -translate-y-1/2 rounded-full p-2 text-slate-400 hover:text-[#32316b] focus:outline-none focus:ring-2 focus:ring-[#32316b]" aria-label="Hapus pencarian">
                                 <i class="fa-solid fa-xmark" aria-hidden="true"></i>
@@ -673,7 +630,48 @@
 
                     <!-- Empty Search Fallback -->
                     <div id="locations-empty" class="hidden text-center py-10 text-slate-500 text-sm">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Lokasi tidak ditemukan. Coba kata kunci kota atau nama lokasi lain.
+                    </div>
+                    <p class="text-center text-sm font-semibold text-slate-500 mt-8">And more to come…</p>
+                </div>
+            </div>
+
+            <div class="py-10 bg-white">
+                <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div class="bg-amber-50 border border-amber-200 rounded-2xl p-6 sm:p-8">
+                        <h2 class="text-xl font-extrabold text-[#32316b] flex items-center gap-2">
+                            <i class="fa-solid fa-paintbrush text-amber-600" aria-hidden="true"></i>
+                            Aturan Berkarya
+                        </h2>
+                        <p class="text-slate-700 text-sm sm:text-base leading-relaxed mt-3">
+                            Tidak menimpa karya orang lain tanpa izin, tidak memuat ujaran kebencian atau konten diskriminatif, dan mengikuti jadwal penggunaan dinding.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="py-14 bg-[#EBEBEB]/60 border-t border-slate-200">
+                <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div class="max-w-3xl mx-auto text-center mb-10">
+                        <span class="text-xs font-bold uppercase tracking-widest text-amber-600">BersamArt di luar dinding</span>
+                        <h2 class="text-3xl font-extrabold text-[#32316b] mt-1">MORE ACTIVITIES</h2>
+                        <p class="text-slate-600 text-sm sm:text-base leading-relaxed mt-3">
+                            BersamArt juga mendukung kegiatan kreatif yang positif, tidak hanya pada dinding legal saja. Warga bisa ikut kegiatan melukis bersama, workshop, pameran kecil, dan karyanya bisa dikembangkan bersama UMKM menjadi tote bag, baju, atau aksesori.
+                        </p>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <article class="rounded-2xl overflow-hidden shadow-md border border-slate-200 bg-white">
+                            <img src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80" alt="Workshop melukis mural" class="w-full h-52 object-cover" onerror="this.remove()">
+                            <h3 class="p-5 font-extrabold text-[#32316b]">Workshop: Murals for Beginners</h3>
+                        </article>
+                        <article class="rounded-2xl overflow-hidden shadow-md border border-slate-200 bg-white">
+                            <img src="https://images.unsplash.com/photo-1547826039-bfc35e0f1ea8?auto=format&fit=crop&w=800&q=80" alt="Desain merchandise kreatif" class="w-full h-52 object-cover" onerror="this.remove()">
+                            <h3 class="p-5 font-extrabold text-[#32316b]">Sayembara Desain Merchandise Lumpur Surga by Riri</h3>
+                        </article>
+                        <article class="rounded-2xl overflow-hidden shadow-md border border-slate-200 bg-white">
+                            <img src="https://images.unsplash.com/photo-1541961017774-22349e4a1262?auto=format&fit=crop&w=800&q=80" alt="Kelas melukis" class="w-full h-52 object-cover" onerror="this.remove()">
+                            <h3 class="p-5 font-extrabold text-[#32316b]">Painting Class: Karhutla Kalimantan</h3>
+                        </article>
                     </div>
                 </div>
             </div>
@@ -692,7 +690,7 @@
                 <div class="absolute inset-0 bg-black/45"></div>
                 <div class="relative z-10 text-center px-4 max-w-3xl">
                     <h1 class="text-3xl sm:text-5xl font-extrabold text-white leading-tight drop-shadow-md">
-                        JAGA 360: Jaringan Aksi dan Gerakan Aman
+                        JAGA 360: Jaringan Aksi dan Gerakan Aman Fasilitas Publik
                     </h1>
                 </div>
             </div>
@@ -704,13 +702,13 @@
                     <!-- Short Explanation -->
                     <div class="space-y-3">
                         <h2 class="text-2xl sm:text-3xl font-extrabold text-[#32316b]">
-                            JAGA 360: Jaringan Aksi dan Gerakan Aman
+                            JAGA 360: Jaringan Aksi dan Gerakan Aman Fasilitas Publik
                         </h2>
                         <p class="text-slate-600 text-sm sm:text-base leading-relaxed text-justify">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porttitor elit eget elit congue, quis lacinia elit dignissim.
+                            JAGA 360 adalah sistem pelaporan berbasis masyarakat untuk menjaga fasilitas umum seperti halte, rambu lalu lintas, taman, dan area transportasi. Lihat kerusakan atau coretan? Scan QR code di lokasi atau isi formulir di bawah.
                         </p>
                         <p class="text-slate-500 text-sm leading-relaxed text-justify">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porttitor elit eget elit congue, quis lacinia elit dignissim. Proin dignissim euismod elit, a mattis augue laoreet quis.
+                            Laporan kalian dikumpulkan lalu diteruskan ke pengelola fasilitas atau pihak berwenang untuk ditindaklanjuti. Relawan juga melakukan pemeriksaan fasilitas berkala tanpa menghadapi pelaku secara langsung. Yang membedakan JAGA 360 dari pelaporan biasa adalah adanya tindak lanjut.
                         </p>
                         <p class="text-xs text-slate-500">Data laporan dicatat di Google Sheets. Foto bukti, jika disertakan, disimpan di Google Drive dan ditautkan pada baris laporan yang sama. Kirimkan informasi yang diperlukan saja.</p>
                     </div>
@@ -815,15 +813,13 @@
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-10 pb-10 border-b border-white/15">
                 
-                <!-- Column 1: Logo Placeholder & Slogan -->
+                <!-- Column 1: Logo & Slogan -->
                 <div class="space-y-4">
                     <div class="flex items-center gap-3">
-                        <div class="px-4 py-2.5 rounded-lg border-2 border-dashed border-white/60 bg-white/10 text-white font-extrabold text-sm tracking-widest uppercase">
-                            LOGO
-                        </div>
+                        <img src="assets/jaga-bersama.png" alt="Jaga Bersama" class="h-14 w-auto max-w-[220px] object-contain brightness-0 invert">
                     </div>
                     <p class="text-sm text-slate-300 italic leading-relaxed max-w-xs">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Kreatif Tanpa Merusak, Peduli Tanpa Ragu.
                     </p>
                 </div>
 
@@ -927,7 +923,19 @@
         </div>
     </div>
 
-    <!-- 3. FAQ Modal -->
+    <!-- 3. Partnership Detail Modal -->
+    <div id="partner-modal" role="dialog" aria-modal="true" aria-labelledby="partner-modal-title" class="hidden fixed inset-0 z-50 bg-black/70 backdrop-blur-sm flex items-center justify-center p-4">
+        <div class="bg-white rounded-3xl max-w-lg w-full p-6 sm:p-8 shadow-2xl relative">
+            <button onclick="closeModal('partner-modal')" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-700 flex items-center justify-center font-bold" aria-label="Tutup detail kolaborasi">
+                <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+            </button>
+            <span class="inline-block px-3 py-1 rounded-full bg-amber-100 text-amber-800 text-xs font-bold uppercase mb-3">Kolaborasi Bersama</span>
+            <h3 id="partner-modal-title" class="text-2xl font-extrabold text-[#32316b] mb-3"></h3>
+            <p id="partner-modal-description" class="text-sm text-slate-600 leading-relaxed"></p>
+        </div>
+    </div>
+
+    <!-- 4. FAQ Modal -->
     <div id="faq-modal" role="dialog" aria-modal="true" aria-labelledby="faq-modal-title" class="hidden fixed inset-0 z-50 bg-black/70 backdrop-blur-sm flex items-center justify-center p-4">
         <div class="bg-white rounded-3xl max-w-xl w-full p-6 sm:p-8 shadow-2xl relative space-y-4">
             <button onclick="closeModal('faq-modal')" class="absolute top-5 right-5 w-9 h-9 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-700 flex items-center justify-center font-bold">
@@ -937,11 +945,11 @@
             <div class="space-y-3 text-sm">
                 <div class="p-4 rounded-xl bg-[#EBEBEB]">
                     <p class="font-bold text-[#32316b]">1. Apa perbedaan BersamArt dan coretan liar?</p>
-                    <p class="text-slate-600 mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="text-slate-600 mt-1">BersamArt menggunakan dinding resmi dengan izin tertulis dari pemilik atau pengelola. Coretan liar dibuat tanpa izin dan dapat merusak atau mengganggu penggunaan fasilitas bersama.</p>
                 </div>
                 <div class="p-4 rounded-xl bg-[#EBEBEB]">
                     <p class="font-bold text-[#32316b]">2. Bagaimana tindak lanjut laporan di Jaga 360?</p>
-                    <p class="text-slate-600 mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="text-slate-600 mt-1">Laporan yang valid diteruskan ke pengelola fasilitas atau pihak berwenang. Jika kerusakan skalanya kecil, komunitas Jaga Bersama juga dapat membersihkan atau memperbaikinya. Tim mencatat tindak lanjut dan dokumentasi sebelum-sesudah, lalu membuat rekap berkala jumlah dan jenis laporan sebagai bahan evaluasi.</p>
                 </div>
             </div>
         </div>
@@ -953,43 +961,44 @@
     <script>
         const JAGA360_WEB_APP_URL = 'https://script.google.com/macros/s/AKfycbxwnSmI8c4vnHR_RMfZix-1VEhahkzKJSQYZIontU9IjLJ6ozRuimNvNS0f2UxnrZ7Vbw/exec';
 
-        // 1. DATA BERSAMART LOCATIONS (Sesuai Mockup + Alamat Lengkap)
+        // 1. DATA BERSAMART LOCATIONS
         const bersamArtLocations = [
             {
                 name: "BersamArt @ BLOK M, Jakarta Selatan",
                 address: "Jl. Melawai Raya No. 14, Kebayoran Baru, Jakarta Selatan",
                 image: "https://images.unsplash.com/photo-1561059488-916d69792237?auto=format&fit=crop&w=800&q=80",
-                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                description: "Dinding resmi BersamArt untuk berkarya dengan izin pemilik atau pengelola."
             },
             {
-                name: "BersamArt @ Bintaro Sektor IV, Tangerang Selatan",
-                address: "Jl. Raya Bintaro Utama Sektor 4, Pondok Aren, Tangerang Selatan",
+                name: "BersamArt @ Bintaro Sektor IX, Tangerang Selatan",
+                address: "Bintaro Sektor IX, Tangerang Selatan",
                 image: "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&w=800&q=80",
-                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                description: "Dinding resmi BersamArt untuk berkarya dengan izin pemilik atau pengelola."
             },
             {
                 name: "BersamArt @ Cipete, Jakarta Selatan",
-                address: "Jl. Cipete Raya No. 28, Cilandak, Jakarta Selatan",
+                address: "Cipete, Jakarta Selatan",
                 image: "https://images.unsplash.com/photo-1569091791842-7cfb64e04797?auto=format&fit=crop&w=800&q=80",
-                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            },
-            {
-                name: "BersamArt @ Braga, Bandung",
-                address: "Jl. Braga No. 45, Sumur Bandung, Kota Bandung",
-                image: "https://images.unsplash.com/photo-1547826039-bfc35e0f1ea8?auto=format&fit=crop&w=800&q=80",
-                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                description: "Dinding resmi BersamArt untuk berkarya dengan izin pemilik atau pengelola."
             },
             {
                 name: "BersamArt @ Tebet Eco Park, Jakarta Selatan",
-                address: "Jl. Tebet Barat Raya, Tebet, Jakarta Selatan",
+                address: "Tebet Eco Park, Jakarta Selatan",
                 image: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80",
-                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                description: "Dinding resmi BersamArt untuk berkarya dengan izin pemilik atau pengelola."
             },
             {
-                name: "BersamArt @ Kemang, Jakarta Selatan",
-                address: "Jl. Kemang Raya No. 10, Mampang Prapatan, Jakarta Selatan",
+                name: "BersamArt @ Braga, Bandung",
+                address: "Braga, Bandung",
                 image: "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&w=800&q=80",
-                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                description: "Dinding resmi BersamArt untuk berkarya dengan izin pemilik atau pengelola."
+            },
+            {
+                name: "BersamArt @ Fakultas Psikologi UNDIP, Semarang",
+                address: "Fakultas Psikologi, Universitas Diponegoro, Semarang",
+                image: "https://images.unsplash.com/photo-1541961017774-22349e4a1262?auto=format&fit=crop&w=800&q=80",
+                description: "Lokasi BersamArt terbaru di Fakultas Psikologi UNDIP, Semarang.",
+                isNew: true
             }
         ];
 
@@ -1000,27 +1009,27 @@
                 title: "Vandalisme vs Street Art: Memahami Batas Ekspresi di Ruang Publik",
                 meta: "Esai Utama • Tim Jaga Bersama",
                 paragraphs: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porttitor elit eget elit congue, quis lacinia elit dignissim.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dignissim euismod elit, a mattis augue laoreet quis.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porttitor elit eget elit congue, quis lacinia elit dignissim."
+                    "Street art dan vandalisme sama-sama dapat menggunakan cat dan dinding, tetapi perbedaannya terletak pada izin dan dampak. BersamArt menyediakan dinding resmi agar warga dapat berekspresi tanpa merusak fasilitas umum.",
+                    "Vandalisme dapat merusak ruang bersama dan, seperti pelemparan batu ke kereta, membahayakan keselamatan. Karena itu, pencegahan perlu berjalan bersama edukasi, ruang berkarya legal, perawatan, dan pelaporan.",
+                    "Jaga Bersama menghubungkan kreativitas melalui BersamArt dengan kepedulian terhadap fasilitas bersama melalui relawan dan JAGA 360."
                 ]
             },
             {
-                badge: "Essay Dummy 1",
+                badge: "Menjaga Fasilitas Bersama",
                 title: "Peran Partisipasi Warga dalam Menjaga Fasilitas Transportasi Umum",
                 meta: "Publikasi Medium • Jaga Bersama",
                 paragraphs: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porttitor elit eget elit congue, quis lacinia elit dignissim. Proin dignissim euismod elit, a mattis augue laoreet quis.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dignissim euismod elit, a mattis augue laoreet quis."
+                    "Perawatan fasilitas umum dapat dimulai dari pemeriksaan berkala, edukasi, dan pelaporan kondisi yang perlu diperbaiki. Warga dapat ikut merawat tanpa menghadapi pelaku secara langsung.",
+                    "JAGA 360 meneruskan laporan valid kepada pengelola fasilitas atau pihak berwenang, serta mencatat tindak lanjut untuk membantu evaluasi."
                 ]
             },
             {
-                badge: "Essay Dummy 2",
+                badge: "Ruang Publik Aman",
                 title: "Membangun Ruang Ramah Anak Melalui Revitalisasi Taman Kota",
                 meta: "Publikasi Medium • Jaga Bersama",
                 paragraphs: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porttitor elit eget elit congue, quis lacinia elit dignissim.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dignissim euismod elit, a mattis augue laoreet quis."
+                    "Lingkungan yang aman dan nyaman adalah tanggung jawab bersama. Pencegahan vandalisme dapat dilakukan melalui ruang berekspresi yang legal, keterlibatan komunitas, dan pemantauan fasilitas.",
+                    "Jaga Bersama mengajak masyarakat menjaga fasilitas umum sambil menghormati hak orang lain dan aturan yang berlaku."
                 ]
             }
         ];
@@ -1069,6 +1078,13 @@
             }, 350);
         }
 
+        function goToBersamArtActivities() {
+            navigateTo('bersamart');
+            window.setTimeout(() => {
+                document.getElementById('bersamart-activities').scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }, 350);
+        }
+
         // 4. RENDER & FILTER BERSAMART LOCATIONS
         function renderLocations(list) {
             const grid = document.getElementById('locations-grid');
@@ -1097,8 +1113,10 @@
                     </span>
                     <span class="p-5 text-center flex-grow flex flex-col justify-center">
                         <span class="font-extrabold text-base text-[#32316b] leading-snug">${loc.name}</span>
+                        ${loc.isNew ? '<span class="absolute top-3 right-3 rounded-full bg-[#e85b4f] px-3 py-1 text-[10px] font-extrabold uppercase tracking-wider text-white shadow">NEW</span>' : ''}
                     </span>
                 `;
+                card.classList.add('relative');
                 grid.appendChild(card);
             });
         }
@@ -1142,6 +1160,12 @@
             document.getElementById('modal-loc-desc').innerText = loc.description;
 
             document.getElementById('location-modal').classList.remove('hidden');
+        }
+
+        function openPartnerModal(name, description) {
+            document.getElementById('partner-modal-title').textContent = name;
+            document.getElementById('partner-modal-description').textContent = description;
+            document.getElementById('partner-modal').classList.remove('hidden');
         }
 
         function openFaqModal() {
